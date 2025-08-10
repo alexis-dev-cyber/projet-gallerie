@@ -1,0 +1,23 @@
+     {
+      margin: 0 auto;
+    }
+
+    h2 {
+      background-color: red;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    thead {
+      color: white;
+      background-color: pink;
+      padding: 5px;
+      border: 1px solid black;
+    }
+
+    tbody {
+      background-color: gray;
+      color: white;
+      padding: 5px;
+      border: 1px solid black;
+    }

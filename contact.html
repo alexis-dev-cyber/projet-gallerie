@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport"content=width=device-width,initial-scale=1.0">
+	<title>Oeuvre d'art, contact</title>
+	<meta name="description"content="Art, Taleau, Gallerie, Contact">
+</head>
+<body>
+ <header>
+    <div class="nav-container">
+          <nav>      
+            <a href="index.html" title="Accueil">Accueil</a>
+	        <a href="gallerie.html" title="Voir les photos">Gallerie</a>
+	        <a href="contact.html" title="Nous contacter">Contact</a>
+          </nav>
+    </div>
+	
+    <h2>Nous envoyer un E-mail</h2>
+    <form action="contact.html">
+	 <div>
+	  <label for="email"><b>Votre e-mail</b><sup>*</sup></label>
+	   <input type="email" required id="email" name="email" placeholder="username@gmail.com">
+	 </div>
+	 <div>
+	  <label for="numéro"><b>Votre Numéro</b></label>
+	    <input type="tel" id="phone-number" name="phone-number" placeholder="Numéro de téléphone">
+		  <Select id="contry-code">
+		   <option value="+1">États-Unis (+1)</option>
+		   <option value="+33">France (+33)</option>
+		   <option value="+49">Allemagne (+49)</option>
+		   <option value="+34">Espagne (+34)</option>
+		   <option value="+351">Portugal (+351)</option>
+		   <option value="+590">Guadeloupe (+590)</option>
+		   <option value="+596">Martinique (+596)</option>
+		   <option value="+509">Haiti (+509)</option>
+		   <option value="+1649">Iles Turques-et-Caiques (+1649)</option>
+		   <option value="+377">Monaco (+1)</option>
+		   <option value="+971">Émirats Arabes Unis (+971)</option>
+		   <option value="+7">Russie (+7)</option>
+		   <option value="+850">Corée du Nord (+850)</option>
+		   <option value="+55">Brésil (+55)</option>
+		   <option value="+212">Maroc (+212)</option>
+		   <option value="+233">Ghana (+233)</option>
+		  </select>
+	 </div>
+	 <div>
+	  <label for="firstname"><b>Votre Prénom</b><sup>*</sup></label>
+	   <input type="text" required id="firstname" name="firstname">
+	 </div>
+	 <div>
+	  <label for="name"><b>Votre Nom</b><sup>*</sup></label>
+	   <input type="text" required id="name" name="name">
+	 </div> 
+	 <div>
+	  <label for="date"><b>Date de naissance</b><sup>*</sup></label>
+		<input type="date" required id="date" name="date" max="2025-08-10" min="1910-01-01" placeholder="YYY-MMM-DDD">
+	  </div>
+	 <div>
+	  <label><b>Sexe</b></label>
+     <div>
+	   <input type="radio" name="sexe" id="masculin" checked>
+	    <label for="masculin">Masculin</label>
+	 </div> 
+	 <div> 
+	   <input type="radio" name="sexe" id="feminin" checked>
+	    <label for="feminin">Féminin</label>
+	 </div> 
+	 </div> 
+	 <div> 
+	 <label><input type="checkbox" name="cgu" checked> J'accepte les conditions d'utilisations</label>
+	 </div> 
+	 <div>
+	  <label for="message">Votre Message<sup>*</sup></label>
+	   <textarea required id="message" name="message" cols="100" rows="20"></textarea>
+	 </div> 
+	  <input type="submit" value="submit">
+	</form>
+  </header>
+</body><br>
+<footer>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15134.838058080131!2d-72.33677387237547!3d18.496812621772126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sht!4v1753215098481!5m2!1sfr!2sht" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <hr>
+ <div class="container">
+         <p>&copy;<b> 2025 Alexis Christian Bensly. Tous droits réservés.</b></p>
+   </div>
+</footer>
+
+</html>
